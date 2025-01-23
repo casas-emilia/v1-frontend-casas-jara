@@ -3,13 +3,6 @@
     <div v-if="isFirstVisit && isLoading" class="loading-overlay">
       <img src="/img/logo_casas_jara.png" alt="Casas Jara Logo" class="loading-logo">
     </div>
-    
-    <section class="introduction">
-      <h1>Casas Prefabricadas Jara - Diseño, Venta y Construcción</h1>
-      <p>Bienvenidos a Casas Prefabricadas Jara. Nos dedicamos a diseñar y construir casas prefabricadas modernas, adaptadas a tus necesidades. Nuestro equipo de expertos se asegura de combinar funcionalidad, estilo y eficiencia en cada proyecto.</p>
-      <h2>Nuestros Servicios</h2>
-      <p>Ofrecemos servicios completos de diseño, fabricación y construcción de casas prefabricadas de alta calidad. Descubre nuestros modelos, precios competitivos y opciones personalizadas.</p>
-    </section>
 
     <CarruselPortada />
     <PrefabricadasDestacadas />
@@ -20,7 +13,7 @@
     <!-- Video Section -->
     <section class="video-section py-5">
       <div class="container">
-        <h2 class="section-title">Casas Sebastián Nadal</h2>
+        <h2 class="section-title">Casas Prefabricadas Jara</h2>
         <div class="video-container">
           <iframe 
             src="https://www.youtube.com/embed/q5PPNZiu52w?si=a5H_wn6CNmF0XJXW"
