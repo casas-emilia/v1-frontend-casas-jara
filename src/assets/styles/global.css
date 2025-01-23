@@ -1,0 +1,8 @@
+:root {
+  --primary-color: #00d1ff; /* Azul vibrante: moderno, fresco y legible */
+  --secondary-color: #1e1f21; /* Mantén este como fondo oscuro */
+  --accent-color: #ff4081; /* Rosa vibrante: un contraste atractivo */
+  --text-color: #ffffff; /* Texto claro para buen contraste */
+  --light-bg: #f8f9fa; /* Fondo claro para ciertas secciones */
+  --dark-bg: #2c2d30; /* Fondo oscuro principal */
+}
