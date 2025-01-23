@@ -468,15 +468,14 @@ onMounted(async () => {
 
 /* Add this new style for screen reader only content */
 .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
+  position: static;  /* Los hace visibles */
+  width: auto;
+  height: auto;
+  clip: auto;
+  white-space: normal;
+  overflow: visible;
+  font-size: 16px; /* Tamaño estándar de texto */
+  opacity: 0.01;  /* Casi invisible pero detectable */
 }
 
 </style>
