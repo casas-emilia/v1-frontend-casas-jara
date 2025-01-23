@@ -44,7 +44,7 @@ onMounted(() => {
       <div v-else class="row align-items-center content-wrapper">
         <div class="col-md-6 map-container">
           <div class="ratio ratio-16x9 map-frame">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.2618851872418!2d-71.4177988!3d-34.517429899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96647747e7d6bd35%3A0xd5e8cbad3c392bbe!2sConstructora%20Jara!5e1!3m2!1ses-419!2scl!4v1737598953319!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.2618851872418!2d-71.4177988!3d-34.517429899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96647747e7d6bd35%3A0xd5e8cbad3c392bbe!2sConstructora%20Jara!5e1!3m2!1ses-419!2scl!4v1737598953319!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allow="fullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
         <div class="col-md-6 info-container">

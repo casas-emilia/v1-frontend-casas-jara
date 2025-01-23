@@ -7,20 +7,9 @@
     <section class="introduction">
       <h1>Casas Prefabricadas Jara - Diseño, Venta y Construcción</h1>
       <p>Bienvenidos a Casas Prefabricadas Jara. Nos dedicamos a diseñar y construir casas prefabricadas modernas, adaptadas a tus necesidades. Nuestro equipo de expertos se asegura de combinar funcionalidad, estilo y eficiencia en cada proyecto.</p>
-    </section>
-
-    <section class="our-services">
       <h2>Nuestros Servicios</h2>
       <p>Ofrecemos servicios completos de diseño, fabricación y construcción de casas prefabricadas de alta calidad. Descubre nuestros modelos, precios competitivos y opciones personalizadas.</p>
     </section>
-
-    <h1>Casas Prefabricadas Jara - Diseño, Venta y Construcción</h1>
-    <p>Bienvenidos a Casas Prefabricadas Jara. Nos dedicamos a diseñar y construir casas prefabricadas modernas, adaptadas a tus necesidades. Nuestro equipo de expertos se asegura de combinar funcionalidad, estilo y eficiencia en cada proyecto.</p>
-
-    
-    <h2>Nuestros Servicios</h2>
-    <p>Ofrecemos servicios completos de diseño, fabricación y construcción de casas prefabricadas de alta calidad. Descubre nuestros modelos, precios competitivos y opciones personalizadas.</p>
-  
 
     <CarruselPortada />
     <PrefabricadasDestacadas />
@@ -49,7 +38,7 @@
     <section id="noticias" class="projects-section">
       <div class="container">
         <h2 class="section-title">Últimos proyectos y actividades</h2>
-        <p>Conoce nuestros proyectos recientes y cómo estamos ayudando a nuestros clientes a encontrar su hogar ideal.</p>
+        <p class="text-center">Conoce nuestros proyectos recientes y cómo estamos ayudando a nuestros clientes a encontrar su hogar ideal.</p>
 
         <!-- Loading State -->
         <div v-if="loadingNoticias" class="loading-state">

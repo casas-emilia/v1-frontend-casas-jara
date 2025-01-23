@@ -95,7 +95,7 @@ const progressPercentage = computed(() => {
   <div class="animated-gradient py-5">
     <header class="text-white text-center py-5 animate__animated animate__fadeIn">
       <div class="container">
-        <h1 class="display-4 fw-bold mb-3">Casas Prefabricadas Destacadas</h1>
+        <h2 class="display-4 fw-bold mb-3">Casas Prefabricadas Destacadas</h2>
         <p class="lead mb-4">Descubre nuestras mejores opciones en casas prefabricadas</p>
       </div>
     </header>
