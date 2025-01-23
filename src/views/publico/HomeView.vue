@@ -5,6 +5,7 @@
     </div>
     
     <h1 class="sr-only">Casas Prefabricadas Jara - Diseño, Venta y Construcción de Casas Prefabricadas</h1>
+    <h2 class="sr-only">Diseño, Venta y Construcción de Casas Prefabricadas</h2>
 
     <CarruselPortada />
     <PrefabricadasDestacadas />
