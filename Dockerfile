@@ -25,6 +25,9 @@ FROM nginx:1.27-alpine
 # Copia los archivos estáticos generados al contenedor NGINX
 COPY --from=builder /app/dist /usr/share/nginx/html
 
+# Asegurarse de incluir robots.txt
+COPY --from=builder /app/public/robots.txt /usr/share/nginx/html/robots.txt
+
 # Copia la configuración personalizada de NGINX
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
