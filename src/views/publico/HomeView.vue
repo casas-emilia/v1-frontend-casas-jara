@@ -153,35 +153,6 @@ onMounted(async () => {
 
   await getUltimasNoticias();
 
-  // Add schema.org structured data
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
-    "name": "Casas Prefabricadas Jara",
-    "description": "Diseño, venta y construcción de casas prefabricadas de alta calidad",
-    "url": "https://v1-frontend-casas-jara-production.up.railway.app",
-    "logo": "https://v1-frontend-casas-jara-production.up.railway.app/img/logo_casas_jara.png",
-    "sameAs": [
-      "https://www.facebook.com/CasasPrefabricadasJara",
-      "https://www.instagram.com/casasprefabricadasjara"
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "lihueimo, 3130000 Santa Cruz,",
-      "addressLocality": "O'Higgins",
-      "addressRegion": "Libertador General Bernardo O'Higgins",
-      "postalCode": "3160000",
-      "addressCountry": "CL"
-    },
-    "telephone": "+56912345678",
-    "email": "contacto@casasprefabricadasjara.com"
-  };
-
-  const script = document.createElement('script');
-  script.type = 'application/ld+json';
-  script.text = JSON.stringify(schemaData);
-  document.head.appendChild(script);
-
 });
 </script>
 
