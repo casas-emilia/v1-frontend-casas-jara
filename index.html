@@ -28,11 +28,54 @@
     
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom styles for h1, h2, and p tags -->
+  <style>
+    .footer-content {
+      background-color: #1e1f21;
+      color: white;
+      padding: 40px 0;
+    }
+    .footer-content h1 {
+      font-size: 1.0rem;
+      margin-bottom: 15px;
+    }
+    .footer-content h2 {
+      font-size: 1.0rem;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    .footer-content p {
+      font-size: 0.7rem;
+      margin-bottom: 0;
+    }
+    .footer-column {
+      padding: 0 20px;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
   <script type="module" src="./src/main.js"></script>
   <!-- Bootstrap JS bundle (incluye Popper.js) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Contenido del footer en dos columnas -->
+  <div class="footer-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 footer-column">
+          <h1>Casas Prefabricadas Jara - Diseño, Venta y Construcción</h1>
+          <p>Casas Prefabricadas Jara. Nos dedicamos a diseñar y construir casas prefabricadas modernas, adaptadas a tus necesidades. Nuestro equipo de expertos se asegura de combinar funcionalidad, estilo y eficiencia en cada proyecto.</p>
+        </div>
+        <div class="col-md-6 footer-column">
+          <h2>Nuestros Servicios</h2>
+          <p>Ofrecemos servicios completos de diseño, fabricación y construcción de casas prefabricadas de alta calidad. Descubre nuestros modelos, precios competitivos y opciones personalizadas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
+
