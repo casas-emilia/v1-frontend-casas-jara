@@ -405,13 +405,13 @@ const goBack = () => {
 
       <EjecutivosVentas />
 
-      <section class="footer-banner">
+      <!-- <section class="footer-banner">
         <div class="banner-overlay">
           <h2 class="banner-text animate__animated animate__fadeIn animate__delay-1s">
             Casas Prefabricadas Jara
           </h2>
         </div>
-      </section>
+      </section> -->
 
       <Transition name="fade">
         <div v-if="lightboxOpen" 
